@@ -58,4 +58,4 @@ Feel free to write to the corresponding author Ms. Wrede [Email: wrede@combi.rwt
 We thank our colleague Timo Gersing for many fruitful discussions and the occasional inspirational chocolate bar. We also thank the organising team of CO@Work 2024, i.e. Timo Berthold, Ralf Borndörfer, Ambros Gleixner, Thorsten Koch, and Milena Petkovic. Their workshop motivated and inspired us to do this research.
 
 ## License
-All code is under a GNU Affero General Public License v3.0 only.
+All code is under a GNU Affero General Public License v3.0 only. If you use this, please cite this work via [https://zenodo.org/records/17524471](https://zenodo.org/records/17524471).
