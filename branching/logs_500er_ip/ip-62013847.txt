@@ -1,0 +1,320 @@
+[INFO] Module GCC/11.3.0 loaded.
+
+The following have been reloaded with a version change:
+  1) GCCcore/13.3.0 => GCCcore/11.3.0     3) zlib/1.3.1 => zlib/1.2.12
+  2) binutils/2.42 => binutils/2.38
+
+[INFO] Module OpenMPI/4.1.4 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/4.1.4".
+
+[INFO] Module OpenMPI/4.1.4 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[INFO] Module intel-compilers/2022.1.0 loaded.
+
+The following have been reloaded with a version change:
+  1) intel-compilers/2024.2.0 => intel-compilers/2022.1.0
+
+[INFO] Module impi/2021.6.0 loaded.
+
+Lmod is automatically replacing "OpenMPI/4.1.4" with "impi/2021.6.0".
+
+[INFO] Module impi/2021.6.0 loaded.
+[INFO] Module Python/3.10.4 loaded.
+[INFO] Module GCC/13.3.0 loaded.
+[INFO] Module libevent/2.1.12 loaded.
+[INFO] Module bzip2/1.0.8 loaded.
+[INFO] Module ncurses/6.3 loaded.
+
+Inactive Modules:
+  1) GMP/6.2.1         5) Tcl/8.6.12     9) hwloc/2.7.1          13) libxml2/2.9.13
+  2) PMIx/4.1.2        6) UCC/1.0.0     10) libffi/3.4.2         14) numactl/2.0.14
+  3) Python/3.10.4     7) UCX/1.12.1    11) libpciaccess/0.16
+  4) SQLite/3.38.3     8) XZ/5.2.5      12) libreadline/8.1.2
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) bzip2/1.0.8     2) libevent/2.1.12     3) ncurses/6.3
+
+The following have been reloaded with a version change:
+  1) GCC/11.3.0 => GCC/13.3.0             4) binutils/2.38 => binutils/2.42
+  2) GCCcore/11.3.0 => GCCcore/13.3.0     5) zlib/1.2.12 => zlib/1.3.1
+  3) OpenSSL/1.1 => OpenSSL/3
+
+[INFO] Module SciPy-bundle/2024.05 loaded.
+
+Activating Modules:
+  1) Python/3.12.3     3) Tcl/8.6.14     5) libffi/3.4.5
+  2) SQLite/3.45.3     4) XZ/5.4.5       6) libreadline/8.2
+
+The following have been reloaded with a version change:
+  1) ncurses/6.3 => ncurses/6.5
+
+[INFO] Module zlib/1.3.1 loaded.
+[INFO] Module binutils/2.42 loaded.
+[INFO] Module ncurses/6.5 loaded.
+[INFO] Module GCCcore/13.3.0 loaded.
+[INFO] Module zlib/1.3.1 loaded.
+[INFO] Module binutils/2.42 loaded.
+[INFO] Module ncurses/6.5 loaded.
+[INFO] Module libevent/2.1.12 loaded.
+[INFO] Module bzip2/1.0.8 loaded.
+[INFO] Module libreadline/8.2 loaded.
+[INFO] Module Tcl/8.6.14 loaded.
+[INFO] Module SQLite/3.45.3 loaded.
+[INFO] Module XZ/5.4.5 loaded.
+[INFO] Module libffi/3.4.5 loaded.
+[INFO] Module Python/3.12.3 loaded.
+[INFO] Module cffi/1.16.0 loaded.
+[INFO] Module cryptography/42.0.8 loaded.
+[INFO] Module virtualenv/20.26.2 loaded.
+[INFO] Module Python-bundle-PyPI/2024.06 loaded.
+[INFO] Module gzip/1.13 loaded.
+[INFO] Module lz4/1.9.4 loaded.
+[INFO] Module zstd/1.5.6 loaded.
+[INFO] Module ICU/75.1 loaded.
+Gurobi shell based on Python 3.12.3 can be launched with command `gurobi.sh`
+Gurobi Python Interface can be loaded in Python 3.12.3 with 'import gurobipy'
+[INFO] Module Gurobi/11.0.3 loaded.
+[INFO] Module networkx/3.4.2 loaded.
+Considering instance 6
+Considering Preference type 0
+Preferences are defined by assignment cost.
+NN:,i,insType,insTypeLetter,pref,setting,preprocessing
+NN: 5 500 X 0 500_500 False
+Start Initializing 
+
+There are no ties. Proceed with preference ordering. 
+
+Set parameter TSPort to value 50039
+Set parameter TokenServer to value "license.itc.rwth-aachen.de"
+Set parameter Threads to value 1
+Set parameter SoftMemLimit to value 10
+Set parameter TimeLimit to value 3.5326094861030579e+03
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (linux64 - "Rocky Linux 9.6 (Blue Onyx)")
+
+CPU model: Intel(R) Xeon(R) Platinum 8468, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 96 physical cores, 96 logical processors, using up to 1 threads
+
+Optimize a model with 501000 rows, 250500 columns and 63625500 nonzeros
+Model fingerprint: 0x0f43dcb6
+Variable types: 0 continuous, 250500 integer (250500 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [1e-05, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 500 rows and 0 columns (presolve time = 6s) ...
+Presolve removed 2630 rows and 2130 columns (presolve time = 10s) ...
+Presolve removed 2630 rows and 2130 columns (presolve time = 18s) ...
+Presolve removed 2630 rows and 2130 columns (presolve time = 21s) ...
+Presolve removed 2630 rows and 2130 columns (presolve time = 29s) ...
+Presolve removed 2630 rows and 3945 columns (presolve time = 30s) ...
+Presolve removed 2791 rows and 3945 columns (presolve time = 35s) ...
+Presolve removed 3384 rows and 3945 columns (presolve time = 40s) ...
+Presolve removed 4084 rows and 3945 columns (presolve time = 45s) ...
+Presolve removed 4084 rows and 4441 columns (presolve time = 50s) ...
+Presolve removed 4084 rows and 4441 columns (presolve time = 55s) ...
+Presolve removed 18408 rows and 4441 columns (presolve time = 61s) ...
+Presolve removed 18408 rows and 14387 columns (presolve time = 65s) ...
+Presolve removed 18912 rows and 14387 columns (presolve time = 73s) ...
+Presolve removed 18936 rows and 14387 columns (presolve time = 77s) ...
+Presolve removed 18936 rows and 14387 columns (presolve time = 80s) ...
+Presolve removed 18936 rows and 14387 columns (presolve time = 88s) ...
+Presolve removed 18936 rows and 14387 columns (presolve time = 92s) ...
+Presolve removed 20116 rows and 14387 columns (presolve time = 95s) ...
+Presolve removed 20636 rows and 14387 columns (presolve time = 100s) ...
+Presolve removed 20782 rows and 14387 columns (presolve time = 105s) ...
+Presolve removed 21491 rows and 15063 columns (presolve time = 111s) ...
+Presolve removed 21493 rows and 15063 columns (presolve time = 119s) ...
+Presolve removed 21493 rows and 15063 columns (presolve time = 122s) ...
+Presolve removed 21493 rows and 15063 columns (presolve time = 125s) ...
+Presolve removed 21493 rows and 15063 columns (presolve time = 133s) ...
+Presolve removed 21499 rows and 15063 columns (presolve time = 135s) ...
+Presolve removed 21519 rows and 15063 columns (presolve time = 140s) ...
+Presolve removed 21604 rows and 15063 columns (presolve time = 145s) ...
+Presolve removed 21604 rows and 15063 columns (presolve time = 151s) ...
+Presolve removed 21604 rows and 15063 columns (presolve time = 157s) ...
+Presolve removed 21604 rows and 15063 columns (presolve time = 160s) ...
+Presolve removed 21604 rows and 15097 columns (presolve time = 165s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 170s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 175s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 180s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 185s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 190s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 195s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 200s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 205s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 210s) ...
+Presolve removed 21605 rows and 15097 columns (presolve time = 215s) ...
+Presolve removed 21608 rows and 15429 columns (presolve time = 221s) ...
+Presolve removed 21705 rows and 15429 columns (presolve time = 228s) ...
+Presolve removed 21705 rows and 15429 columns (presolve time = 232s) ...
+Presolve removed 21705 rows and 15429 columns (presolve time = 235s) ...
+Presolve removed 21705 rows and 15429 columns (presolve time = 243s) ...
+Presolve removed 21772 rows and 15429 columns (presolve time = 245s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 250s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 255s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 265s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 270s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 275s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 280s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 285s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 290s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 295s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 300s) ...
+Presolve removed 21855 rows and 15429 columns (presolve time = 305s) ...
+Sparsify removed 21456152 nonzeros (36%)
+Presolve removed 22378 rows and 15429 columns (presolve time = 310s) ...
+Presolve removed 22378 rows and 15429 columns (presolve time = 315s) ...
+Presolve removed 22378 rows and 15429 columns
+Presolve time: 315.03s
+Presolved: 478622 rows, 235071 columns, 37381089 nonzeros
+Variable types: 0 continuous, 235071 integer (235071 binary)
+Found heuristic solution: objective 81704.196616
+Root relaxation presolved: 478622 rows, 235071 columns, 37381089 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   1.620000e+03   0.000000e+00    356s
+   17566    8.8273359e+02   1.709533e+05   0.000000e+00    361s
+   22026    1.0014954e+03   2.545840e+05   0.000000e+00    367s
+   24461    1.0693076e+03   4.858804e+05   0.000000e+00    370s
+   27194    1.1593066e+03   3.106508e+06   0.000000e+00    375s
+   30512    1.2810699e+03   4.982433e+05   0.000000e+00    382s
+   33487    1.3942390e+03   4.782165e+05   0.000000e+00    387s
+   35612    1.4809707e+03   8.748628e+05   0.000000e+00    391s
+   37738    1.5702642e+03   9.796752e+05   0.000000e+00    396s
+   40924    1.8569616e+03   7.134395e+06   0.000000e+00    402s
+   42347    1.9953127e+03   1.024833e+07   0.000000e+00    406s
+   44554    2.3203312e+03   1.353410e+07   0.000000e+00    410s
+   46476    2.5561478e+03   8.601971e+05   0.000000e+00    416s
+   47861    2.7573838e+03   3.544967e+07   0.000000e+00    421s
+   48693    2.8915129e+03   7.658603e+05   0.000000e+00    425s
+   50407    3.1765881e+03   7.143420e+06   0.000000e+00    433s
+   50767    3.2955708e+03   4.355258e+07   0.000000e+00    436s
+   51487    3.6258477e+03   6.987507e+06   0.000000e+00    443s
+   51847    3.7361277e+03   5.090513e+07   0.000000e+00    447s
+   52557    3.9634520e+03   5.169600e+07   0.000000e+00    454s
+   52857    4.1198854e+03   5.153400e+07   0.000000e+00    457s
+   53157    4.3110230e+03   3.266304e+07   0.000000e+00    461s
+   53837    4.5581247e+03   6.023405e+07   0.000000e+00    467s
+   54447    4.8851384e+03   1.616681e+07   0.000000e+00    473s
+   54807    5.0729679e+03   8.658010e+07   0.000000e+00    476s
+   55487    5.4948803e+03   3.921636e+07   0.000000e+00    483s
+   55847    5.6272056e+03   6.392310e+07   0.000000e+00    487s
+   56177    5.7637904e+03   1.750955e+07   0.000000e+00    490s
+   56897    6.0090254e+03   9.576669e+06   0.000000e+00    496s
+   57617    6.1599937e+03   1.283875e+07   0.000000e+00    500s
+   58337    6.2512855e+03   2.052411e+06   0.000000e+00    505s
+   59057    6.4298753e+03   1.039002e+08   0.000000e+00    510s
+   60137    6.5778058e+03   4.194490e+06   0.000000e+00    516s
+   60857    6.6228700e+03   6.109452e+07   0.000000e+00    521s
+   61577    6.7099616e+03   4.655236e+07   0.000000e+00    527s
+   62297    6.8308853e+03   3.678784e+07   0.000000e+00    532s
+   63017    6.9097447e+03   7.403570e+07   0.000000e+00    536s
+   63737    6.9680330e+03   2.122191e+07   0.000000e+00    540s
+   64457    7.0487800e+03   3.569138e+07   0.000000e+00    545s
+   65537    7.1492223e+03   8.176406e+06   0.000000e+00    553s
+   65897    7.1842198e+03   5.454631e+06   0.000000e+00    555s
+   66617    7.2497891e+03   2.410017e+07   0.000000e+00    560s
+   67337    7.2986714e+03   8.547782e+06   0.000000e+00    565s
+   68417    7.3595424e+03   4.304024e+07   0.000000e+00    572s
+   69137    7.4039496e+03   7.773960e+06   0.000000e+00    577s
+   69857    7.4375693e+03   7.624083e+06   0.000000e+00    582s
+   70577    7.4780858e+03   7.072408e+07   0.000000e+00    587s
+   71297    7.5106721e+03   1.550396e+07   0.000000e+00    592s
+   72017    7.5350290e+03   6.473318e+05   0.000000e+00    596s
+   72737    7.5628691e+03   2.987657e+09   0.000000e+00    600s
+   73817    7.6003567e+03   2.651188e+06   0.000000e+00    607s
+   74537    7.6301175e+03   6.379415e+06   0.000000e+00    611s
+   75617    7.7458174e+03   6.164466e+06   0.000000e+00    616s
+   76337    7.7784525e+03   2.072705e+06   0.000000e+00    621s
+   77417    7.8191931e+03   2.543659e+07   0.000000e+00    627s
+   78137    7.8523800e+03   5.279721e+06   0.000000e+00    632s
+   78857    7.8782146e+03   1.996551e+07   0.000000e+00    637s
+   79577    7.9066062e+03   2.575445e+06   0.000000e+00    643s
+   79937    7.9187135e+03   1.499236e+06   0.000000e+00    646s
+   80657    7.9529470e+03   6.733720e+06   0.000000e+00    651s
+   81377    7.9845108e+03   1.544479e+07   0.000000e+00    656s
+   82097    8.0151452e+03   1.419529e+08   0.000000e+00    660s
+   82817    8.0409462e+03   1.301970e+06   0.000000e+00    665s
+   83897    8.0718190e+03   1.426697e+06   0.000000e+00    672s
+   84617    8.0995169e+03   2.195746e+06   0.000000e+00    676s
+   85337    8.1213397e+03   3.506901e+05   0.000000e+00    680s
+   85697    8.1315283e+03   1.157685e+08   0.000000e+00    686s
+   86417    8.1597830e+03   2.863085e+06   0.000000e+00    690s
+   87137    8.1817496e+03   2.386303e+08   0.000000e+00    695s
+   88217    8.2153206e+03   2.440547e+05   0.000000e+00    703s
+   88577    8.2339269e+03   7.556280e+06   0.000000e+00    705s
+   89657    8.3065664e+03   3.028638e+07   0.000000e+00    710s
+   90377    8.3270694e+03   2.739933e+05   0.000000e+00    715s
+   91097    8.3427924e+03   2.520813e+06   0.000000e+00    721s
+   91817    8.3901879e+03   2.133795e+06   0.000000e+00    726s
+   92537    8.4006133e+03   7.372884e+05   0.000000e+00    731s
+   93257    8.4171940e+03   5.033199e+05   0.000000e+00    736s
+   93977    8.4362582e+03   5.227066e+05   0.000000e+00    742s
+   94697    8.4523166e+03   6.695355e+05   0.000000e+00    747s
+   95417    8.4689030e+03   2.975006e+06   0.000000e+00    752s
+   96137    8.4862415e+03   2.123763e+07   0.000000e+00    757s
+   96497    8.4928500e+03   4.994111e+06   0.000000e+00    760s
+   96857    8.4999518e+03   5.109110e+06   0.000000e+00    766s
+   97577    8.5109311e+03   2.543970e+05   0.000000e+00    772s
+   98297    8.5248023e+03   2.637892e+05   0.000000e+00    778s
+   98657    8.5310692e+03   7.598819e+06   0.000000e+00    781s
+   99377    8.5421816e+03   4.809477e+05   0.000000e+00    788s
+   99737    8.5485041e+03   1.576977e+06   0.000000e+00    791s
+  100457    8.5597812e+03   5.676385e+07   0.000000e+00    796s
+  101177    8.5703917e+03   8.485253e+05   0.000000e+00    802s
+  101537    8.5764235e+03   1.207929e+06   0.000000e+00    806s
+  102257    8.5840008e+03   9.573769e+04   0.000000e+00    812s
+  102977    8.5929635e+03   9.926633e+04   0.000000e+00    817s
+  103697    8.6011145e+03   2.566637e+05   0.000000e+00    823s
+  104057    8.6058397e+03   4.883450e+05   0.000000e+00    826s
+  104777    8.6160819e+03   8.436485e+04   0.000000e+00    831s
+  105497    8.6309221e+03   5.653369e+05   0.000000e+00    837s
+  105857    8.6374402e+03   2.471453e+06   0.000000e+00    840s
+  106577    8.6470173e+03   1.691896e+05   0.000000e+00    847s
+  106937    8.6505887e+03   2.810311e+05   0.000000e+00    851s
+  107657    8.6588682e+03   4.912290e+05   0.000000e+00    857s
+  108377    8.6657529e+03   3.345159e+04   0.000000e+00    863s
+  108737    8.6694837e+03   8.883225e+05   0.000000e+00    866s
+  109457    8.6769237e+03   3.736122e+05   0.000000e+00    872s
+  109817    8.6807444e+03   4.463517e+05   0.000000e+00    876s
+  110537    8.6874430e+03   1.032538e+04   0.000000e+00    882s
+  110897    8.6906060e+03   3.446854e+04   0.000000e+00    886s
+  111617    8.6959181e+03   2.488611e+05   0.000000e+00    892s
+  111977    8.6984163e+03   2.223205e+05   0.000000e+00    895s
+  112687    8.7033737e+03   6.326483e+05   0.000000e+00    902s
+  113047    8.7071713e+03   6.795688e+05   0.000000e+00    905s
+  113757    8.7121526e+03   6.546851e+04   0.000000e+00    912s
+  114117    8.7145707e+03   2.568326e+04   0.000000e+00    915s
+  114827    8.7173309e+03   2.065268e+04   0.000000e+00    922s
+  115177    8.7182698e+03   1.015865e+03   0.000000e+00    926s
+  115877    8.7219706e+03   1.542429e+04   0.000000e+00    933s
+  116237    8.7229489e+03   9.708714e+03   0.000000e+00    936s
+  116927    8.7243101e+03   3.393593e+04   0.000000e+00    943s
+  117277    8.7249072e+03   4.975844e+03   0.000000e+00    946s
+  117977    8.7258299e+03   1.180824e+03   0.000000e+00    952s
+  118317    8.7264987e+03   5.258614e+03   0.000000e+00    956s
+  118987    8.7272773e+03   1.782838e+02   0.000000e+00    962s
+  119337    8.7277978e+03   8.225575e+04   0.000000e+00    966s
+  120007    8.7280710e+03   3.567236e+01   0.000000e+00    972s
+  120357    8.7282689e+03   5.468649e+01   0.000000e+00    975s
+  120508    8.7283683e+03   0.000000e+00   0.000000e+00    977s
+
+Root relaxation: objective 8.728368e+03, 120508 iterations, 637.48 seconds (888.23 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 8728.36825    0 2029 81704.1966 8728.36825  89.3%     - 1968s
+     0     0 8776.21296    0 1990 81704.1966 8776.21296  89.3%     - 2110s
+H    0     0                    15276.337377 8776.21296  42.6%     - 2111s
+H    0     0                    14063.079530 8776.21296  37.6%     - 2144s
+     0     0 8776.21296    0 1990 14063.0795 8776.21296  37.6%     - 2145s
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=62013847.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

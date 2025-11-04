@@ -1,0 +1,100 @@
+[INFO] Module GCC/11.3.0 loaded.
+
+The following have been reloaded with a version change:
+  1) GCCcore/13.3.0 => GCCcore/11.3.0     3) zlib/1.3.1 => zlib/1.2.12
+  2) binutils/2.42 => binutils/2.38
+
+[INFO] Module OpenMPI/4.1.4 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/4.1.4".
+
+[INFO] Module OpenMPI/4.1.4 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[INFO] Module intel-compilers/2022.1.0 loaded.
+
+The following have been reloaded with a version change:
+  1) intel-compilers/2024.2.0 => intel-compilers/2022.1.0
+
+[INFO] Module impi/2021.6.0 loaded.
+
+Lmod is automatically replacing "OpenMPI/4.1.4" with "impi/2021.6.0".
+
+[INFO] Module impi/2021.6.0 loaded.
+[INFO] Module Python/3.10.4 loaded.
+[INFO] Module GCC/13.3.0 loaded.
+[INFO] Module libevent/2.1.12 loaded.
+[INFO] Module bzip2/1.0.8 loaded.
+[INFO] Module ncurses/6.3 loaded.
+
+Inactive Modules:
+  1) GMP/6.2.1         5) Tcl/8.6.12     9) hwloc/2.7.1          13) libxml2/2.9.13
+  2) PMIx/4.1.2        6) UCC/1.0.0     10) libffi/3.4.2         14) numactl/2.0.14
+  3) Python/3.10.4     7) UCX/1.12.1    11) libpciaccess/0.16
+  4) SQLite/3.38.3     8) XZ/5.2.5      12) libreadline/8.1.2
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) bzip2/1.0.8     2) libevent/2.1.12     3) ncurses/6.3
+
+The following have been reloaded with a version change:
+  1) GCC/11.3.0 => GCC/13.3.0             4) binutils/2.38 => binutils/2.42
+  2) GCCcore/11.3.0 => GCCcore/13.3.0     5) zlib/1.2.12 => zlib/1.3.1
+  3) OpenSSL/1.1 => OpenSSL/3
+
+[INFO] Module SciPy-bundle/2024.05 loaded.
+
+Activating Modules:
+  1) Python/3.12.3     3) Tcl/8.6.14     5) libffi/3.4.5
+  2) SQLite/3.45.3     4) XZ/5.4.5       6) libreadline/8.2
+
+The following have been reloaded with a version change:
+  1) ncurses/6.3 => ncurses/6.5
+
+[INFO] Module zlib/1.3.1 loaded.
+[INFO] Module binutils/2.42 loaded.
+[INFO] Module ncurses/6.5 loaded.
+[INFO] Module GCCcore/13.3.0 loaded.
+[INFO] Module zlib/1.3.1 loaded.
+[INFO] Module binutils/2.42 loaded.
+[INFO] Module ncurses/6.5 loaded.
+[INFO] Module libevent/2.1.12 loaded.
+[INFO] Module bzip2/1.0.8 loaded.
+[INFO] Module libreadline/8.2 loaded.
+[INFO] Module Tcl/8.6.14 loaded.
+[INFO] Module SQLite/3.45.3 loaded.
+[INFO] Module XZ/5.4.5 loaded.
+[INFO] Module libffi/3.4.5 loaded.
+[INFO] Module Python/3.12.3 loaded.
+[INFO] Module cffi/1.16.0 loaded.
+[INFO] Module cryptography/42.0.8 loaded.
+[INFO] Module virtualenv/20.26.2 loaded.
+[INFO] Module Python-bundle-PyPI/2024.06 loaded.
+[INFO] Module gzip/1.13 loaded.
+[INFO] Module lz4/1.9.4 loaded.
+[INFO] Module zstd/1.5.6 loaded.
+[INFO] Module ICU/75.1 loaded.
+Gurobi shell based on Python 3.12.3 can be launched with command `gurobi.sh`
+Gurobi Python Interface can be loaded in Python 3.12.3 with 'import gurobipy'
+[INFO] Module Gurobi/11.0.3 loaded.
+[INFO] Module networkx/3.4.2 loaded.
+Considering instance 3
+Considering Preference type 1
+Preferences according to Cánovas et al. (2007).
+
+Start Initializing 
+
+There are no ties. Proceed with preference ordering. 
+
+10 LB/UB Tree 37970 78470   Node 37970 78470   Open nodes: 11   Gap: 51.612   Current depth -/+: 9 0   Time: 67765.24
+Finished after 15 iterations
+Total time: 90193.1 seconds
+15 Tree LB/UB 38001 78470  Currently open nodes: 17   Gap: 51.5721
+
+Validating solution with UB 78470.9439 and incumbent [3, 16, 17, 23, 24, 26, 28, 31, 35, 41, 50, 55, 57, 65, 66, 67, 75, 88, 89, 95, 101, 106, 120, 132, 135, 140, 142, 144, 145, 146, 150, 151, 155, 161, 163, 169, 176, 182, 188, 189, 191, 207, 226, 227, 230, 237, 243, 246, 247, 255, 256, 269, 271, 272, 273, 291, 294, 298, 301, 310, 311, 317, 319, 322, 331, 338, 354, 355, 360, 373, 375, 377, 388, 389, 406, 407, 409, 415, 430, 436, 443, 449, 468, 470, 471, 474, 477, 481, 482, 504, 505, 510, 514, 527, 531, 532, 533, 535, 536, 537, 538, 541, 545, 548, 551, 558, 560, 562, 565, 568, 579, 585, 594, 595, 609, 616, 617, 619, 622, 623, 627, 639, 642, 649, 658, 661, 670, 672, 678, 680, 698, 700, 704, 713, 714, 720, 728, 732, 734, 737, 741, 742, 746, 754, 756, 764, 771, 778, 781, 785, 786, 793, 796, 820, 836, 839, 840, 846, 852, 864, 869, 882, 883, 895, 896, 899, 901, 903, 906, 911, 912, 914, 930, 933, 937, 941, 942, 945, 947, 949, 961, 975, 980, 986, 990, 993, 998]
+Total cost of solution is 78470
+Cost of solution matches reported UB of 78470
+All facilities respect their capacities in preference-based assignment. 
+
+Could not find IP solution file. results/2_1_1000_X_1000_1000_no_preprocessing_IPsolution.json /rwthfs/rz/cluster/home/fe111727/eplpo_branching/branching

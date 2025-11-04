@@ -1,0 +1,33 @@
+{
+    "input parameters": [
+        "4",
+        "0",
+        "500",
+        "X",
+        "500_500",
+        "no_preprocessing"
+    ],
+    "instance": {
+        "facilities": 500,
+        "customers": 500
+    },
+    "times": {
+        "total_time in s": 1079.97,
+        "model_building_time in s": 66.01,
+        "model_solving_time in s": 1013.96
+    },
+    "nodes": {
+        "total": 1.0
+    },
+    "solution": {
+        "LB": "infeasible",
+        "UB": "infeasible",
+        "gap in %": "infeasible",
+        "incumbent": "infeasible",
+        "memory in MB": 7049.99
+    },
+    "bounds": {
+        "lower_bounds": [],
+        "upper_bounds": []
+    }
+}

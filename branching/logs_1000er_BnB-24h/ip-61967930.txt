@@ -1,0 +1,115 @@
+[INFO] Module GCC/11.3.0 loaded.
+
+The following have been reloaded with a version change:
+  1) GCCcore/13.3.0 => GCCcore/11.3.0     3) zlib/1.3.1 => zlib/1.2.12
+  2) binutils/2.42 => binutils/2.38
+
+[INFO] Module OpenMPI/4.1.4 loaded.
+
+Lmod is automatically replacing "impi/2021.13.0" with "OpenMPI/4.1.4".
+
+[INFO] Module OpenMPI/4.1.4 loaded.
+
+Inactive Modules:
+  1) imkl-FFTW/2024.2.0
+
+[INFO] Module intel-compilers/2022.1.0 loaded.
+
+The following have been reloaded with a version change:
+  1) intel-compilers/2024.2.0 => intel-compilers/2022.1.0
+
+[INFO] Module impi/2021.6.0 loaded.
+
+Lmod is automatically replacing "OpenMPI/4.1.4" with "impi/2021.6.0".
+
+[INFO] Module impi/2021.6.0 loaded.
+[INFO] Module Python/3.10.4 loaded.
+[INFO] Module GCC/13.3.0 loaded.
+[INFO] Module libevent/2.1.12 loaded.
+[INFO] Module bzip2/1.0.8 loaded.
+[INFO] Module ncurses/6.3 loaded.
+
+Inactive Modules:
+  1) GMP/6.2.1         5) Tcl/8.6.12     9) hwloc/2.7.1          13) libxml2/2.9.13
+  2) PMIx/4.1.2        6) UCC/1.0.0     10) libffi/3.4.2         14) numactl/2.0.14
+  3) Python/3.10.4     7) UCX/1.12.1    11) libpciaccess/0.16
+  4) SQLite/3.38.3     8) XZ/5.2.5      12) libreadline/8.1.2
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) bzip2/1.0.8     2) libevent/2.1.12     3) ncurses/6.3
+
+The following have been reloaded with a version change:
+  1) GCC/11.3.0 => GCC/13.3.0             4) binutils/2.38 => binutils/2.42
+  2) GCCcore/11.3.0 => GCCcore/13.3.0     5) zlib/1.2.12 => zlib/1.3.1
+  3) OpenSSL/1.1 => OpenSSL/3
+
+[INFO] Module SciPy-bundle/2024.05 loaded.
+
+Activating Modules:
+  1) Python/3.12.3     3) Tcl/8.6.14     5) libffi/3.4.5
+  2) SQLite/3.45.3     4) XZ/5.4.5       6) libreadline/8.2
+
+The following have been reloaded with a version change:
+  1) ncurses/6.3 => ncurses/6.5
+
+[INFO] Module zlib/1.3.1 loaded.
+[INFO] Module binutils/2.42 loaded.
+[INFO] Module ncurses/6.5 loaded.
+[INFO] Module GCCcore/13.3.0 loaded.
+[INFO] Module zlib/1.3.1 loaded.
+[INFO] Module binutils/2.42 loaded.
+[INFO] Module ncurses/6.5 loaded.
+[INFO] Module libevent/2.1.12 loaded.
+[INFO] Module bzip2/1.0.8 loaded.
+[INFO] Module libreadline/8.2 loaded.
+[INFO] Module Tcl/8.6.14 loaded.
+[INFO] Module SQLite/3.45.3 loaded.
+[INFO] Module XZ/5.4.5 loaded.
+[INFO] Module libffi/3.4.5 loaded.
+[INFO] Module Python/3.12.3 loaded.
+[INFO] Module cffi/1.16.0 loaded.
+[INFO] Module cryptography/42.0.8 loaded.
+[INFO] Module virtualenv/20.26.2 loaded.
+[INFO] Module Python-bundle-PyPI/2024.06 loaded.
+[INFO] Module gzip/1.13 loaded.
+[INFO] Module lz4/1.9.4 loaded.
+[INFO] Module zstd/1.5.6 loaded.
+[INFO] Module ICU/75.1 loaded.
+Gurobi shell based on Python 3.12.3 can be launched with command `gurobi.sh`
+Gurobi Python Interface can be loaded in Python 3.12.3 with 'import gurobipy'
+[INFO] Module Gurobi/11.0.3 loaded.
+[INFO] Module networkx/3.4.2 loaded.
+Considering instance 9
+Considering Preference type 0
+Preferences correspond to Closest Assignments.
+
+Start Initializing 
+
+There are no ties. Proceed with preference ordering. 
+
+10 LB/UB Tree 15579 27665   Node 15579 27665   Open nodes: 11   Gap: 43.6873   Current depth -/+: 8 1   Time: 11729.91
+20 LB/UB Tree 15662 27665   Node 15662 28434   Open nodes: 21   Gap: 43.3864   Current depth -/+: 5 1   Time: 16410.91
+30 LB/UB Tree 15710 27665   Node 15710 27665   Open nodes: 31   Gap: 43.2118   Current depth -/+: 15 1   Time: 21190.36
+40 LB/UB Tree 15739 27665   Node 15739 27665   Open nodes: 41   Gap: 43.1063   Current depth -/+: 13 2   Time: 25949.88
+50 LB/UB Tree 15758 27665   Node 15758 27665   Open nodes: 51   Gap: 43.0405   Current depth -/+: 10 2   Time: 30767.1
+60 LB/UB Tree 15804 27665   Node 15804 27665   Open nodes: 61   Gap: 42.8712   Current depth -/+: 20 1   Time: 35552.68
+70 LB/UB Tree 15836 27665   Node 15836 27665   Open nodes: 71   Gap: 42.7558   Current depth -/+: 15 2   Time: 40328.61
+80 LB/UB Tree 15845 27665   Node 15845 28434   Open nodes: 81   Gap: 42.7243   Current depth -/+: 7 0   Time: 45241.56
+90 LB/UB Tree 15861 27665   Node 15861 27665   Open nodes: 91   Gap: 42.6661   Current depth -/+: 7 1   Time: 50350.81
+100 LB/UB Tree 15867 27665   Node 15867 27665   Open nodes: 101   Gap: 42.6443   Current depth -/+: 11 2   Time: 55338.31
+110 LB/UB Tree 15873 27665   Node 15873 27665   Open nodes: 111   Gap: 42.6218   Current depth -/+: 22 3   Time: 60141.62
+120 LB/UB Tree 15884 27665   Node 15884 27665   Open nodes: 121   Gap: 42.584   Current depth -/+: 29 3   Time: 65159.36
+130 LB/UB Tree 15908 27665   Node 15908 27665   Open nodes: 131   Gap: 42.4954   Current depth -/+: 19 4   Time: 70156.57
+140 LB/UB Tree 15920 27665   Node 15920 27665   Open nodes: 141   Gap: 42.4524   Current depth -/+: 27 3   Time: 74812.62
+150 LB/UB Tree 15931 27665   Node 15931 27665   Open nodes: 151   Gap: 42.4149   Current depth -/+: 39 5   Time: 79688.11
+160 LB/UB Tree 15938 27665   Node 15938 27665   Open nodes: 161   Gap: 42.3872   Current depth -/+: 24 2   Time: 85910.68
+Finished after 162 iterations
+Total time: 86778.28 seconds
+162 Tree LB/UB 15938 27665  Currently open nodes: 164   Gap: 42.3871
+
+Validating solution with UB 27665.4362 and incumbent [7, 41, 43, 44, 48, 69, 70, 79, 80, 100, 101, 116, 130, 134, 153, 164, 203, 207, 220, 237, 240, 306, 334, 345, 353, 371, 378, 382, 401, 403, 412, 420, 430, 432, 438, 440, 442, 453, 481, 483, 484, 486, 491, 492, 502, 503, 505, 510, 520, 531, 534, 548, 559, 587, 591, 625, 638, 640, 657, 674, 677, 678, 680, 699, 702, 703, 740, 742, 746, 771, 779, 790, 793, 799, 810, 841, 866, 868, 877, 885, 887, 892, 900, 902, 907, 951, 974, 976, 977, 999]
+Total cost of solution is 27665
+Cost of solution matches reported UB of 27665
+All facilities respect their capacities in preference-based assignment. 
+
+Could not find IP solution file. results/8_0_1000_X_1000_1000_no_preprocessing_IPsolution.json /rwthfs/rz/cluster/home/fe111727/eplpo_branching/branching

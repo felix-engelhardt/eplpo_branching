@@ -1,0 +1,64 @@
+{
+    "input parameters": [
+        "4",
+        "0",
+        "cap",
+        "c",
+        "50_75",
+        "preprocessing"
+    ],
+    "instance": {
+        "facilities": 50,
+        "customers": 75
+    },
+    "times": {
+        "total_time in s": 0.68,
+        "model_building_time in s": 0.45,
+        "model_solving_time in s": 0.23
+    },
+    "nodes": {
+        "total": 1.0
+    },
+    "solution": {
+        "LB": 707654.6131,
+        "UB": 707654.6131,
+        "gap in %": 0.0,
+        "incumbent": [
+            0,
+            1,
+            4,
+            5,
+            13,
+            19,
+            23,
+            26,
+            28,
+            34,
+            40,
+            44
+        ],
+        "memory in MB": 98.67
+    },
+    "bounds": {
+        "lower_bounds": [
+            [
+                0.0,
+                0.22525286674499512
+            ],
+            [
+                707654.6130661622,
+                0.23141193389892578
+            ]
+        ],
+        "upper_bounds": [
+            [
+                915108.4348713129,
+                0.22551393508911133
+            ],
+            [
+                707654.6130661622,
+                0.2313840389251709
+            ]
+        ]
+    }
+}
