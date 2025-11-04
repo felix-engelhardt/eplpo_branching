@@ -1,4 +1,4 @@
-# Branch and Bound for Capacitated Facility Location under Strict Preferences (CFLP-SP)
+# Branch and Bound for Capacitated Facility Location under Strict Preferences (CFLP-SP) [![DOI](https://zenodo.org/badge/1089589145.svg)](https://doi.org/10.5281/zenodo.17524470)
 
 ## Description
 
